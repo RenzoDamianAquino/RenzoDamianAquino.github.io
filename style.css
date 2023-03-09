@@ -1,0 +1,420 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    background: black;
+    max-width: 100%;
+  }
+  
+  ul {
+    list-style: none;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+
+  .color-active {
+    background-color: #000000;
+    color: #c02237;
+  }
+  
+  /* inicio navegacion */
+  
+  .navbar-container {
+    width: 100%;
+    background-color: coral;
+  }
+
+  .navbar-list {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+  }
+  
+  .nav-btn {
+    margin-right: 5%;
+    font-size: 1.3em;
+    font-weight: bold;
+  }
+  
+  .nav-btn:hover {
+    color: white;
+    background-color: #000000;
+    transform: scale(1.1);
+    transition-duration: 0.8s;
+    filter: grayscale(50%);
+  }
+  
+  /* fin navegacion */
+  
+  /* inicio seccion inicio */
+  
+  .container-home {
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    --opacidad-negro: 0.8;
+    background-image: linear-gradient(rgba(0, 0, 0, var(--opacidad-negro)), rgba(0, 0, 0, var(--opacidad-negro))), 
+    url(https://www.locurainformaticadigital.com/wp-content/uploads/2017/03/stack-overflow.png);
+    
+  }
+  
+  .home-content {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .name-home {
+    font-size: 4.5em;
+    margin-bottom: 1%;
+    color: rgb(230, 134, 10);
+  }
+  
+  .name-home:hover {
+    color: #eea0a4;
+  }
+  
+  
+  .title-home {
+    color: burlywood;
+    font-size: 3em;
+  }
+  
+  .home-text {
+    color: #3d180a;
+    font-size: 1.3em;
+    -webkit-text-stroke: 1px #d3b7b7;
+  }
+  
+  .btn-home {
+    width: 15%;
+    padding-left: 1%;
+    font-size: 2em;
+    color: #3a2c35;
+    margin-top: 2%;
+    -webkit-text-stroke: 1px #d3b7b7
+  }
+
+  .btn-home:hover {
+    color: #f5d5ea;
+    background-color: #c02237;
+    -webkit-text-stroke: 1.5px #493535
+  }
+  
+  /* fin seccion inicio */
+  
+  /* inicio sobre mi */
+
+  .container-about-me {
+    --opacidad-negro: 0.7;
+    background-image: linear-gradient(rgba(0, 0, 0, var(--opacidad-negro)), rgba(0, 0, 0, var(--opacidad-negro))),
+    url(https://c4.wallpaperflare.com/wallpaper/330/947/786/computer-avid-technology-simple-wallpaper-preview.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .title-me {
+    font-size: 3em;
+    text-align: center;
+    color: #c5fcee;
+    padding: 16px;
+}
+  
+  .content-me {
+    display: flex;
+    justify-content: center;
+    color: #fcd9c5;
+  }
+  
+  .me-img {
+    width: 50%;
+    padding: 5%;
+  }
+  
+  .img {
+    width: 69%;
+    height: 48vh;
+    border-radius: 18%;
+    filter: grayscale(30%);
+  }
+  
+  .about-me-text {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    font-size: 1.3em;
+    padding: 2%;
+  }
+  
+  .btn-a-contacto {
+    padding: 0.5%;
+    border-radius: 10px;
+    text-align: center;
+    width: 15%;
+    font-size: 1.1em;
+    color: rgb(248, 188, 188);
+    background-color: rgb(0, 47, 134);
+  }
+  
+  /* fin sobre mi */
+  
+  /* inicio conocimientos */
+  
+  .container-skills {
+    --opacidad-negro: 0.8;
+    background-image: linear-gradient(rgba(0, 0, 5, var(--opacidad-negro)), rgba(0, 0, 0, var(--opacidad-negro))),
+    url(https://4topiso.com/wp-content/uploads/2020/03/lenguaje_portada.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .content-skills {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 5%;
+  }
+  
+  .title-skills {
+    font-size: 2.5em;
+    margin-top: 2%;
+    color: #f83f3f;
+  }
+  
+  .description-skills {
+    font-size: 1.2em;
+    margin-top: 2%;
+    color: #e67076;
+  }
+  
+  .container-cards-skills {
+    margin-top: 2%;
+    width: 40%;
+    font-size: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+  
+  .card-item-skill {
+    text-align: center;
+    margin-bottom: 5%;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #e67076;
+  }
+  
+  .item-skill {
+    width: 50%;
+    margin: 8%;
+  }
+  
+  .card-item-skill:hover {
+    transform: scale(1.1);
+    transition-duration: 0.8s;
+    filter: grayscale(30%);
+  }
+  
+  /* final conocimientos */
+  
+  /* inicio contacto */
+  
+  .container-contact {
+    background-image: url(https://img.freepik.com/vector-gratis/fondo-oscuro-lineas-neon_23-2148931032.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .content-contact {
+    width: 50%;
+    padding: 3%;
+    margin: 10% 5%;
+    border-radius: 1em;
+    display: flex;
+    flex-direction: column;
+    background: repeating-radial-gradient(#ecc36a, #f1cbb5);
+  }
+  
+  .title-contact {
+    font-size: 3em;
+  }
+  
+  .text-contact {
+    font-size: 1.4em;
+    margin-top: 5%;
+  }
+  
+  .links-contact {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 5%;
+  }
+  
+  .links-contact {
+    padding: 1%;
+    width: 100%;
+  }
+  
+  .img-contact {
+    color: #461717;
+    font-size: 1.5em;
+    padding: 2.5%;
+  }
+  
+  .icon-contact {
+    padding: 2%;
+    margin-bottom: 1%;
+    transition-duration: 1s;
+  }
+  
+  .img-contact:hover {
+    color: #8f1818;
+  }
+  
+  .img-contact:hover .icon-contact {
+    background: repeating-radial-gradient(#854649, #d6c84c);
+    color: #fce4c5;
+  } 
+  
+  
+  @media screen and (min-width: 788px) and (max-width: 1180px) {
+  
+    .navbar-container {
+      width: 100%;
+      margin: 0.5%;
+    }
+  
+    .nav-btn {
+      font-size: 1.3em;
+    }
+  
+    .title-home {
+      font-size: 2.5em;
+    }
+  
+    .text-home {
+      font-size: 1.2em;
+    }
+  
+    .btn-home {
+      width: 20%;
+      font-size: 1.5em;
+    }
+  
+    .img {
+      width: 100%;
+    }
+  
+    .about-me-text {
+      font-size: 1.2em;
+    }
+  
+    .btn-a-contacto {
+      font-size: 1em;
+      width: 25%;
+    }
+  
+    .content-contact {
+      width: 60%;
+    }
+  
+    .title-contact {
+      font-size: 2em;
+    }
+  
+    .img-contact {
+      font-size: 1.2em;
+    }
+  }
+  
+  @media screen and (max-width: 787px) and (min-width: 250px) {
+  
+    .navbar-container {
+      width: 100%;
+      margin: 0.5%;
+    }
+  
+    .nav-btn {
+      font-size: 0.9em;
+    }
+  
+    .title-home{
+      font-size: 2em;
+    }
+  
+    .text-home {
+      font-size: 1em;
+    }
+  
+    .btn-home {
+      text-align: center;
+      width: 38%;
+      font-size: 1.2em;
+    }
+  
+    .title-me {
+      font-size: 2em;
+      text-align: center;
+    }
+  
+    .content-me {
+      flex-direction: column;
+    }
+  
+    .me-img {
+      width: 80%;
+    }
+    
+    .img {
+      width: 100%;
+    }
+  
+    .about-me-text {
+      width: 100%;
+      padding: 5%;
+      font-size: 1.1em;
+    }
+  
+    .btn-a-contacto {
+      font-size: 1.2em;
+      width: 25%;
+      margin-top: 2%;
+    }
+  
+    .title-skills {
+      font-size: 2em;
+    }
+  
+    .container-cards-skills {
+      width: 100%;
+    }
+  
+    .content-contact {
+      width: 90%;
+    }
+  
+    .title-contact {
+      font-size: 1.5em;
+    }
+  
+    .img-contact {
+      font-size: 1em;
+    }
+  }
